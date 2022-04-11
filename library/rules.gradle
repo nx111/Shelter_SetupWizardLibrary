@@ -52,6 +52,7 @@ android {
             res.srcDirs = ['gingerbread/res', 'recyclerview/res']
         }
     }
+
 }
 
 dependencies {
