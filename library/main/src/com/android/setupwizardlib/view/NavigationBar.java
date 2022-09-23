@@ -48,6 +48,7 @@ public class NavigationBar extends LinearLayout implements View.OnClickListener 
     void onNavigateNext();
   }
 
+  @SuppressWarnings("ResourceType")
   private static int getNavbarTheme(Context context) {
     // Normally we can automatically guess the theme by comparing the foreground color against
     // the background color. But we also allow specifying explicitly using suwNavBarTheme.
