@@ -16,5 +16,5 @@
 
 apply from: 'standalone-rules.gradle'
 
-android.compileSdkVersion 26
+android.compileSdkVersion 33
 android.namespace 'com.android.setupwizardlib'
